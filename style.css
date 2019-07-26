@@ -72,8 +72,19 @@ html {
     margin-top: 20px;
   }
   
-  .add-items input {
+  .add-items input  {
     padding: 10px;
     outline: 0;
     border: 1px solid rgba(0,0,0,0.1);
   }
+
+  .container{
+      display: flex;
+      margin-top: 10px;
+  }
+
+.container button {
+    flex-direction: row;
+    width: 33.333333333%;
+    border: 1px solid rgba(0,0,0,0.1);
+}
